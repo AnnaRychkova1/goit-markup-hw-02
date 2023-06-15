@@ -175,6 +175,7 @@ body {
 
 .features-text {
     font-weight: 400;
+    letter-spacing: 0.02em;
 }
 
 /* What are we doing section */
@@ -193,11 +194,11 @@ body {
     background-color: var(--bg-ligt-grey-color);
 }
 
-.team-list {
+.team-list {}
+
+.team-item {
     background-color: var(--bg-color);
 }
-
-.team-item {}
 
 .team-image {}
 
@@ -205,6 +206,7 @@ body {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
     text-align: center;
     color: var(--text-secondary-color);
 }
@@ -230,7 +232,9 @@ body {
 
 .portfolio {}
 
-.portfolio-title {}
+.portfolio-title {
+    letter-spacing: 0.02em;
+}
 
 .portfolio-filtr-list {}
 
@@ -266,4 +270,5 @@ body {
 
 .portfolio-text {
     font-weight: 400;
+    color: var(--text-main-color);
 }
