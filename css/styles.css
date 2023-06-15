@@ -159,7 +159,7 @@ body {
 .features {}
 
 .features-title {
-    letter-spacing: 0.02em
+    letter-spacing: 0.02em;
 }
 
 .features-list {}
@@ -170,6 +170,7 @@ body {
     font-weight:500;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
     color: var(--text-secondary-color);
 }
 
@@ -265,6 +266,7 @@ body {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
     color: var(--text-secondary-color);
 }
 
